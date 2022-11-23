@@ -1,0 +1,21 @@
+.btn {
+  width: 120px;
+  height: 30px;
+  background-color: rgb(187, 187, 187);
+  border: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.btn::before {
+  content: "Pasa por aqui";
+  text-align: center;
+  text-size-adjust: auto;
+}
+
+.btn:hover::before {
+  content: "!hecho!";
+}
+.btn:hover {
+  background-color: green;
+  color: white;
+}
